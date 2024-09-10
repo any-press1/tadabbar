@@ -400,4 +400,7 @@ footer .icons a:hover{
     .logo{
         margin-top: 5px;
     }
+    header{
+        height: 105px;
+    }
 }
