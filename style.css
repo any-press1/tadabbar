@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    direction: rtl;
+    background: rgba(17, 34, 51, 0.767);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    position: fixed;
+}
+.logo{
+    color: rgb(49, 145, 255);
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 600;
+}
+header nav a{
+    text-decoration: none;
+    color: rgb(88, 171, 255);
+    font-size: 1.7em;
+    margin-right: 30px;
+    font-weight: 600;
+}
+header nav a:hover{
+    color: rgb(167, 212, 255);
+}
+section{
+    direction: rtl;
+    padding: 10px 100px;
+}
+.start{
+    background: linear-gradient(to left , rgb(5, 50, 117),rgba(0, 134, 192, 0.651)) , url(img.bmp);
+    background-size: contain;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.start h2{
+    color: white;
+    font-size: 3em;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+.start h2 span{
+    color: rgb(0, 132, 255);
+    font-size: 1.2em;
+}
+.start h3{
+    display: inline-block;
+    color: white;
+    font-size: 2em;
+    line-height: 55px;
+    width: 600px;
+}
+.section{
+    padding: 10px 160px;
+}
+.q{
+    background: #123;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.content div{
+    margin: 10px;
+}
+.title{
+    color: rgb(175, 203, 255);
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+.text h3{
+    color: whitesmoke;
+    font-size: 2em;
+    line-height: 50px;
+}
+.text h3 a{
+    color: rgb(19, 73, 221);
+    text-decoration: none;
+    animation: a 0.7s infinite alternate both;
+}
+@keyframes a{
+    0%{
+        color: rgb(22, 115, 255);
+    }
+    100%{
+        color: rgb(44, 160, 255);
+    }
+}
+.img{
+    background: url("images/img1.jfif") no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+    animation: img 15s infinite alternate-reverse;
+}
+@keyframes img{
+    0%{
+        background: url("images/img4.jfif") no-repeat;
+        background-size: contain;
+    }
+    50%{
+        background: url("images/img3.jfif") no-repeat;
+        background-size: contain;
+    }
+    75%{
+        background: url("images/img2.jfif") no-repeat;
+        background-size: contain;
+    }
+    100%{
+        background: url("images/img1.jfif") no-repeat;
+        background-size: contain;
+    }
+}
+.img2{
+    background: url("images/b.jpg") no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 200px;
+    animation: img2 6s infinite alternate;
+}
+@keyframes img2{
+    25%{
+        background: url("images/b.jpg") no-repeat;
+        background-size: contain;
+    }
+    50%{
+        background: url("images/b.jpg") no-repeat;
+        background-size: contain;
+    }
+    75%{
+        background: url("images/m.jpg") no-repeat;
+        background-size: contain;
+    }
+    100%{
+        background: url("images/m.jpg") no-repeat;
+        background-size: contain;
+    }
+}
+.a{
+    background: rgb(28, 53, 78);
+}
+.k{
+    background: rgb(5, 39, 73);
+}
+.a h3 , .k h3{
+    line-height: 55px;
+}
+.img3{
+    background: url("images/a.jpg") no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 200px;
+    animation: img3 15s infinite alternate;
+}
+@keyframes img3{
+    10%{
+        background: url("images/a.jpg") no-repeat;
+        background-size: contain;
+    }
+    20%{
+        background: url("images/a.jpg") no-repeat;
+        background-size: contain;
+    }
+    30%{
+        background: url("images/m1.jpg") no-repeat;
+        background-size: contain;
+    }
+    40%{
+        background: url("images/m1.jpg") no-repeat;
+        background-size: contain;
+    }
+    50%{
+        background: url("images/r1.jpg") no-repeat;
+        background-size: contain;
+    }
+    60%{
+        background: url("images/r1.jpg") no-repeat;
+        background-size: contain;
+    }
+    70%{
+        background: url("images/r2.jpeg") no-repeat;
+        background-size: contain;
+    }
+    80%{
+        background: url("images/r2.jpeg") no-repeat;
+        background-size: contain;
+    }
+    90%{
+        background: url("images/r3.jpeg") no-repeat;
+        background-size: contain;
+    }
+    100%{
+        background: url("images/r3.jpeg") no-repeat;
+        background-size: contain;
+    }
+}
+.img4{
+    background: url("images/قصص.jpg") no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 200px;
+    margin-right: 30px;
+}
+.q2{
+    background: rgb(6, 36, 48);
+}
+.t{
+    background: rgb(37, 70, 80);
+}
+.img5{
+    background: url("images/t.png") no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+    border-radius: 40%;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+footer span{
+    color: rgb(75, 189, 255);
+    font-family: "Poppins", sans-serif;
+}
+footer .icons a{
+    font-size: 1.3em;
+    font-family: "Poppins", sans-serif;
+    margin-left: 30px;
+    color: rgb(0, 132, 255);
+}
+footer .icons a:hover{
+    color: rgb(167, 212, 255);
+}
+@media (max-width:1200px){
+    .content{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .section{
+        padding: 10px 0;
+    }
+    .a h3,.q2 h3,.q h3,.t h3{
+        line-height: 55px;
+    }
+    .k h3{
+        line-height: 60px;
+    }
+    .img3{
+        margin-top: 500px;
+    }
+}
+@media (max-width:1023px) {
+    header{
+        padding: 12px 10px;
+    }
+    .start h2{
+        font-size: 2.5em;
+    }
+    .start h3{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 10px 50px;
+    }
+}
+@media (max-width:790px) {
+    header{
+        flex-direction: column;
+        height: 100px;
+    }
+    .logo{
+        font-size: 1.8em;
+    }
+    header nav{
+        margin-bottom: 5px;
+    }
+    header nav a{
+        margin-right: 20px;
+        font-size: 1.5em;
+    }
+}
+@media (max-width:655px) {
+    .start{
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+    }
+    .start h2{
+        margin-top: 80px;
+        font-size: 2em;
+    }
+    .start h3{
+        font-size: 1.5em;
+    }
+}
+@media (max-width:610px) {
+    .start h3{
+        width: 100%;
+    }
+}
+@media (max-width:580px) {
+    header{
+        justify-content: center;
+        text-align: center;
+    }
+
+    header nav a{
+        margin-right: 7px;
+    }
+}
+@media (max-width:484px) {
+    .logo{
+        font-size: 1.6em;
+    }
+    header nav a{
+        font-size: 1.2em;
+    }
+}
+@media (max-width:460px) {
+    .start h2{
+        margin-top: 60px;
+    }
+    .start h3{
+        font-size: 1.2em;
+        line-height: 40px;
+    }
+}
+@media (max-width:560px) {
+    .title{
+        font-size: 2em;
+    }
+    .text h3{
+        font-size: 1.5em;
+    }
+    .img2,.img3,.img4,.img5{
+        width: 150px;
+        height: 200px;
+    }
+    .img,.img5{
+        height: 150px;
+        width: 150px;
+    }
+}
+@media (max-width:350px) {
+    .title{
+        font-size: 1.5em;
+    }
+    .text h3{
+        font-size: 1em;
+    }
+}
+@media (max-width:650px) {
+    footer p{
+        font-size: 1em;
+    }
+    footer .icons a{
+        font-size: 1em;
+        margin-left: 10px;
+    }
+    footer{
+        padding: 2em 0.5em;
+    }
+}
+@media (max-width:405px) {
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:410px) {
+    .logo{
+        margin-top: 5px;
+    }
+}
