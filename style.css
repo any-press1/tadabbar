@@ -407,3 +407,8 @@ footer .icons a:hover{
         height: 105px;
     }
 }
+@media (max-width:419px) {
+    .start h2{
+        margin-top: 90px;
+    }
+}
